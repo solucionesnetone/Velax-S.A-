@@ -1,0 +1,387 @@
+body{
+background-color:white;
+}
+
+#container{
+width:800px;
+height:1000px;
+border:1px solid black;
+
+}
+
+#cabecera{
+background-color:white;
+height:150px;
+width:100%;
+background-image:url('imagenes/Velax.png');
+background-repeat:no-repeat;
+}
+
+#cabeceraLink{
+position:absolute;
+width:200px;
+height:20px;
+left: 660px;
+top: 10px;
+}
+
+#menu{
+float:left;
+background-color:#0091DB;
+width:100%;
+height:50px;
+padding:0px;
+
+}
+
+
+#banner{
+float:left;
+background-color:#E6E2D7;
+height:750px;
+width:200px;
+background-image:url('imagenes/publicidad1.jpg');
+background-repeat:no-repeat;
+background-position:25px 50px;
+
+}
+
+
+
+#main{
+float:left;
+background-color:#E6E2D7;
+width:600px;
+height:750px;
+}
+
+#mainProdEstrella {
+	position:absolute;
+	width:400px;
+	height:200px;
+	left: 200px;
+	top: 258px;
+	background-image:url('imagenes/publicidad2.jpg');
+	background-repeat: no-repeat;
+}
+
+#mainProdOferta {
+	position:absolute;
+	width:400px;
+	height:200px;
+	left: 200px;
+	top: 458px;
+	background-image:url('imagenes/publicidad3.jpg');
+	background-repeat: no-repeat;
+}
+
+#mainCatalogo {
+position:absolute;
+width:200px;
+height:20px;
+left: 638px;
+top: 258px;
+}
+
+#mainNovedades {
+position:absolute;
+width:180px;
+height:300px;
+left: 610px;
+top: 288px;
+padding:3px;
+background-color:white;
+border:1px solid black;
+}
+
+#nosotrosTitulo1 {
+position:absolute;
+width:120px;
+height:20px;
+left: 210px;
+top: 288px;
+
+}
+#nosotrosTitulo2 {
+position:absolute;
+width:120px;
+height:20px;
+left: 210px;
+top: 488px;
+
+}
+#nosotrosTitulo3 {
+position:absolute;
+width:120px;
+height:20px;
+left: 210px;
+top: 688px;
+
+}
+
+#nosotrosQuienessomos {
+position:absolute;
+width:380px;
+height:140px;
+left: 215px;
+top: 318px;
+
+}
+#nosotrosMision {
+position:absolute;
+width:380px;
+height:90px;
+left: 215px;
+top: 518px;
+
+}
+#nosotrosVision {
+position:absolute;
+width:380px;
+height:120px;
+left: 215px;
+top: 718px;
+
+}
+
+
+#mainImagen1 {
+position:absolute;
+width:120px;
+height:120px;
+left: 610px;
+top: 318px;
+background-image:url('nosotros/quienessomos.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#mainImagen2 {
+position:absolute;
+width:120px;
+height:120px;
+left: 610px;
+top: 518px;
+background-image:url('nosotros/mision.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#mainImagen3 {
+position:absolute;
+width:120px;
+height:120px;
+left: 610px;
+top: 718px;
+background-image:url('nosotros/vision.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+
+#footer{
+float:left;
+background-color:#242424;
+width:100%;
+height:50px;
+font-weight:bold;
+color:white;
+text-align:center;
+}
+
+#productosCombo1{
+position:absolute;
+width:180px;
+height:23px;
+left:200px;
+top:258px;
+
+}
+#productosCombo2{
+position:absolute;
+width:180px;
+height:23px;
+left:400px;
+top:258px;
+
+}
+#productosCombo3{
+position:absolute;
+width:180px;
+height:23px;
+left:600px;
+top:258px;
+
+}
+
+#productosTab1{
+position:absolute;
+width:200px;
+height:25px;
+left:210px;
+top:358px;
+
+}
+#productosTab2{
+position:absolute;
+width:120px;
+height:23px;
+left:220px;
+top:408px;
+
+}
+#productosTab3{
+position:absolute;
+width:120px;
+height:23px;
+left:470px;
+top:408px;
+
+}
+#productosTab4{
+position:absolute;
+width:120px;
+height:120px;
+left:220px;
+top:458px;
+background-image:url('imagenes/publi9.jpg');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#productosTab4a{
+position:absolute;
+width:120px;
+height:120px;
+left:220px;
+top:458px;
+background-image:url('imagenes/publi9.jpg');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#productosTab5{
+position:absolute;
+width:120px;
+height:120px;
+left:220px;
+top:588px;
+background-image:url('imagenes/publi5.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#productosTab6{
+position:absolute;
+width:120px;
+height:120px;
+left:220px;
+top:718px;
+background-image:url('imagenes/publi6.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+#productosTab7{
+position:absolute;
+width:360px;
+height:120px;
+left:380px;
+top:458px;
+
+}
+#productosTab8{
+position:absolute;
+width:360px;
+height:120px;
+left:380px;
+top:588px;
+
+}
+#productosTab9{
+position:absolute;
+width:360px;
+height:120px;
+left:380px;
+top:718px;
+
+}
+
+#tablahistorial{
+position:absolute;
+width:550px;
+height:700px;
+left:200px;
+top:288px;
+}
+#tablahistorial2{
+position:absolute;
+width:550px;
+height:200px;
+left:200px;
+top:258px;
+border:1px solid black;
+}
+#tablahistorial3{
+position:absolute;
+width:550px;
+height:430px;
+left:200px;
+top:258px;
+border:1px solid black;
+}
+
+#tituloTabla{
+position:absolute;
+width:200px;
+height:50px;
+left:200px;
+top:258px;
+}
+#productosTab3alt{
+position:absolute;
+width:120px;
+height:120px;
+left:220px;
+top:328px;
+background-image:url('imagenes/publi6.png');
+background-repeat: no-repeat;
+border:1px solid black;
+}
+
+#productosTab6alt{
+position:absolute;
+width:360px;
+height:120px;
+left:380px;
+top:328px;
+border:1px solid black;
+}
+
+.numeric-stepper {
+	width:3.425em;
+	height:1.6em;
+	display:block;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #555;
+}
+
+.numeric-stepper input {
+	width:75%;
+	height:100%;
+	float:left;
+	text-align:center;
+	vertical-align:center;
+	font-size:125%;
+	border:none;
+	background:none;
+}
+
+.numeric-stepper button {
+	width:25%;
+	height:50%;
+	font-size:0.5em;
+	padding:0;
+	margin:0;
+	z-index:100;
+	text-align:center;
+	position:absolute;
+	right:0;
+}
+.numeric-stepper button.minus {
+	bottom:0;
+}
